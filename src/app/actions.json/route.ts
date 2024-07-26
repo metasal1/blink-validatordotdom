@@ -5,9 +5,13 @@ export const GET = async () => {
         rules: [
             // map all root level routes to an action
             {
+                pathPattern: "/stake/**",
+                apiPath: "https://blink.validator.com/api/**"
+            },
+            {
                 pathPattern: "/**",
-                apiPath: "https://blink.validator.com/stake/*",
-            }
+                apiPath: "https://blink.validator.com/api/**",
+            },
         ],
     };
 

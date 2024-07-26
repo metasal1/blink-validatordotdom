@@ -10,5 +10,5 @@ export default function Home() {
     //     router.push(url)
     // })
 
-    return null
+    return (<>Stake your SOL with validator.com</>)
 }
