@@ -6,21 +6,21 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL(`https://blink.validator.com`),
   title: {
-    default: 'SITE.name',
-    template: 'test'
+    default: 'Stake your SOL with validator.com',
+    template: '%s | validator.com',
   },
   openGraph: {
     images: [
       {
         url: "/validator-image.png",
-        alt: 'SITE.name,'
+        alt: 'validator.com'
       },
     ],
   },
   category: "technology",
   twitter: {
-    site: 'dfasdfdsa',
-    creator: 'daffasdf',
+    site: 'validator.com',
+    creator: '@metasal_',
     card: "summary_large_image",
   },
 
