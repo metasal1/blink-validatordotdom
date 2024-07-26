@@ -28,7 +28,7 @@ export const GET = async (req: Request) => {
         const { validator } = validatedQueryParams(requestUrl);
 
         const baseHref = new URL(
-            `/api?validator=${validator.toBase58()}`,
+            `/api/stake?validator=${validator.toBase58()}`,
             requestUrl.origin,
         ).toString();
 
